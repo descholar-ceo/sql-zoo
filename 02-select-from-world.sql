@@ -26,4 +26,12 @@ SELECT name, population, area FROM world WHERE area >= 3000000 XOR population >=
 -- QUESTION 9
 SELECT name, ROUND(population/1000000,2), ROUND(gdp/1000000000,2) FROM world WHERE continent='South America'
 
+-- QUESTION 10
+SELECT name, ROUND(gdp/population/1000)*1000 FROM world where gdp>=1000000000000
+
+-- QUESTION 11
+SELECT name, capital FROM world WHERE LENGTH(name) = LENGTH(capital)
+
+-- QUESTION 12
+SELECT name, capital FROM world WHERE LEFT(name,1) =  LEFT(capital, 1) AND name <> capital
 
