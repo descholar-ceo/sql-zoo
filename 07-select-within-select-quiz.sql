@@ -28,3 +28,7 @@ Germany
 Russia
 Turkey
 '
+
+-- QUESTION 5. Select the code that would show the countries with a greater GDP than any country in Africa (some countries may have NULL gdp values).
+SELECT name FROM bbc
+ WHERE gdp > (SELECT MAX(gdp) FROM bbc WHERE region = 'Africa')
