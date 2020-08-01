@@ -37,4 +37,3 @@ SELECT name FROM world
    AND population > 40000000
 -- ANSWER: Brazil
 --         Colombia
-
