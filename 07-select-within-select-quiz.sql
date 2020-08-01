@@ -38,4 +38,10 @@ SELECT name FROM bbc
  WHERE population < (SELECT population FROM bbc WHERE name='Russia')
    AND population > (SELECT population FROM bbc WHERE name='Denmark')
 
-
+-- QUESTION 7. >Select the result that would be obtained from the following code:
+'
+Table-B
+Bangladesh
+India
+Pakistan
+'
