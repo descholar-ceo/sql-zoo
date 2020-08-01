@@ -32,3 +32,10 @@ Turkey
 -- QUESTION 5. Select the code that would show the countries with a greater GDP than any country in Africa (some countries may have NULL gdp values).
 SELECT name FROM bbc
  WHERE gdp > (SELECT MAX(gdp) FROM bbc WHERE region = 'Africa')
+
+ -- QUESTION 6. Select the code that shows the countries with population smaller than Russia but bigger than Denmark
+ SELECT name FROM bbc
+ WHERE population < (SELECT population FROM bbc WHERE name='Russia')
+   AND population > (SELECT population FROM bbc WHERE name='Denmark')
+
+
