@@ -12,4 +12,9 @@ SELECT S2.id, S2.name, R2.company, R2.num
    AND R1.company=R2.company AND R1.num=R2.num
    AND R2.stop=S2.id AND R2.num='2A'
 
-
+-- QUESTION 3. Select the code that shows the services available from Tollcross?
+SELECT a.company, a.num, stopa.name, stopb.name
+  FROM route a JOIN route b ON (a.company=b.company AND a.num=b.num)
+  JOIN stops stopa ON (a.stop=stopa.id)
+  JOIN stops stopb ON (b.stop=stopb.id)
+ WHERE stopa.name='Tollcross'
