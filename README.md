@@ -18,4 +18,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgment
 [Microverse](https://microvese.org)
 
-[Newsweek](https://www.newsweek.com/)
+[The odin project](https://www.theodinproject.com)
+
+[SQLZOO](https://sqlzoo.net/wiki/)
