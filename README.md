@@ -10,7 +10,7 @@ This project was done for learning purpose, the aim was to solve the quizes whic
 ### 1. MUGIRASE Emmanuel
 * Github: [@descholar-ceo](https://github.com/descholar-ceo)
 * Twitter: [@descholar3](https://twitter.com/descholar3)
-* LinkedIn: [MUGIRASE Emmanuel](linkedin.com/in/mugirase-emmanuel-a90b49143)
+* LinkedIn: [MUGIRASE Emmanuel](https://www.linkedin.com/in/mugirase-emmanuel-a90b49143)
 
 ## Show your support 
 Give a ⭐️ if you like this project!
